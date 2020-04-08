@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -24,29 +24,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white banner">
-        <div class="container"><a class="navbar-brand" href="#"><img class="img-fluid logo"
-                    src="assets/img/logo21.png"></a><button data-toggle="collapse" class="navbar-toggler ml-auto"
-                data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">ACCEUIL</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="features.html">L'ECOLE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">FORMATIONS</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">RECHERCHE</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link"
-                            href="contact-us.html">ESPACE-ENTREPRISE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link"
-                            href="contact-us.html">ESPACE-ETUDIANT</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+<?php include 'includes/navbar.php';?>
+    
     <main class="page landing-page">
         <section id="carousel">
             <div class="carousel slide" data-ride="carousel" id="carousel-1">
@@ -79,17 +59,16 @@
                         </div>
                     </div>
                 </div>
-                <div><a class="carousel-control-prev sliderSwipper" href="#carousel-1" role="button"
-                        data-slide="prev"><i class="fa fa-arrow-circle-left"></i><span
-                            class="sr-only">Previous</span></a><a class="carousel-control-next sliderSwipper"
-                        href="#carousel-1" role="button" data-slide="next"><i class="fa fa-arrow-circle-right"></i><span
-                            class="sr-only">Next</span></a></div>
+                <div><a class="carousel-control-prev " href="#carousel-1" role="button" data-slide="prev"><i
+                            class="fa fa-chevron-circle-left sliderSwipper sliderSwipper-left"></i><span class="sr-only">Previous</span></a><a
+                        class="carousel-control-next " href="#carousel-1" role="button" data-slide="next"><i
+                            class="fa fa-chevron-circle-right sliderSwipper sliderSwipper-right "></i><span class="sr-only">Next</span></a></div>
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-1" data-slide-to="0"></li>
                     <li data-target="#carousel-1" data-slide-to="1" class="active"></li>
                     <li data-target="#carousel-1" data-slide-to="2"></li>
                 </ol>
-            </div>
+                </div>
         </section>
         <!--Posts -->
         <section class="clean-block">
@@ -112,14 +91,14 @@
                                             </a>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4"><img class="img-post"
-                                                    src="assets/img/Image_1.png">
+                                            <div class="col-md-4"><img class="img-post" src="assets/img/Image_1.png">
                                             </div>
                                             <div class="col-md-8">
-                                                
+
                                                 <div>
                                                     <p>Réinscription 2019/2020 pour les 2èmes et 3èmes années du
-                                                        Cycle Ingénieur Il est porté à la connaissance des élèves ingénieurs en 2ème et
+                                                        Cycle Ingénieur Il est porté à la connaissance des élèves
+                                                        ingénieurs en 2ème et
                                                         3ème année que les ...<br></p>
                                                 </div>
 
@@ -128,10 +107,15 @@
                                         <!--Post Footer-->
                                         <div class="post-footer">
                                             <div class="entry-meta clearfix">
-                                                
-                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
-                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23 mars 2020</a></span>
-                                                <span class="read-more-link"><a class="read-more" href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire la suite</a></span>
+
+                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        mars 2020</a></span>
+                                                <span class="read-more-link"><a class="read-more"
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        la suite</a></span>
                                             </div>
                                         </div>
                                     </div>
@@ -148,14 +132,14 @@
                                             </a>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4"><img class="img-post"
-                                                    src="assets/img/Image_3.png">
+                                            <div class="col-md-4"><img class="img-post" src="assets/img/Image_3.png">
                                             </div>
                                             <div class="col-md-8">
-                                                
+
                                                 <div>
                                                     <p>Réinscription 2019/2020 pour les 2èmes et 3èmes années du
-                                                        Cycle Ingénieur Il est porté à la connaissance des élèves ingénieurs en 2ème et
+                                                        Cycle Ingénieur Il est porté à la connaissance des élèves
+                                                        ingénieurs en 2ème et
                                                         3ème année que les ...<br></p>
                                                 </div>
 
@@ -164,16 +148,21 @@
                                         <!--Post Footer-->
                                         <div class="post-footer">
                                             <div class="entry-meta clearfix">
-                                                
-                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
-                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23 mars 2020</a></span>
-                                                <span class="read-more-link"><a class="read-more" href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire la suite</a></span>
+
+                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        mars 2020</a></span>
+                                                <span class="read-more-link"><a class="read-more"
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        la suite</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="row mb-2">
@@ -186,14 +175,14 @@
                                             </a>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4"><img class="img-post"
-                                                    src="assets/img/Image_2.png">
+                                            <div class="col-md-4"><img class="img-post" src="assets/img/Image_2.png">
                                             </div>
                                             <div class="col-md-8">
-                                                
+
                                                 <div>
                                                     <p>Réinscription 2019/2020 pour les 2èmes et 3èmes années du
-                                                        Cycle Ingénieur Il est porté à la connaissance des élèves ingénieurs en 2ème et
+                                                        Cycle Ingénieur Il est porté à la connaissance des élèves
+                                                        ingénieurs en 2ème et
                                                         3ème année que les ...<br></p>
                                                 </div>
 
@@ -202,10 +191,15 @@
                                         <!--Post Footer-->
                                         <div class="post-footer">
                                             <div class="entry-meta clearfix">
-                                                
-                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
-                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23 mars 2020</a></span>
-                                                <span class="read-more-link"><a class="read-more" href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire la suite</a></span>
+
+                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        mars 2020</a></span>
+                                                <span class="read-more-link"><a class="read-more"
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        la suite</a></span>
                                             </div>
                                         </div>
                                     </div>
@@ -222,14 +216,14 @@
                                             </a>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4"><img class="img-post"
-                                                    src="assets/img/Image_1.png">
+                                            <div class="col-md-4"><img class="img-post" src="assets/img/Image_1.png">
                                             </div>
                                             <div class="col-md-8">
-                                                
+
                                                 <div>
                                                     <p>Réinscription 2019/2020 pour les 2èmes et 3èmes années du
-                                                        Cycle Ingénieur Il est porté à la connaissance des élèves ingénieurs en 2ème et
+                                                        Cycle Ingénieur Il est porté à la connaissance des élèves
+                                                        ingénieurs en 2ème et
                                                         3ème année que les ...<br></p>
                                                 </div>
 
@@ -238,16 +232,21 @@
                                         <!--Post Footer-->
                                         <div class="post-footer">
                                             <div class="entry-meta clearfix">
-                                                
-                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
-                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23 mars 2020</a></span>
-                                                <span class="read-more-link"><a class="read-more" href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire la suite</a></span>
+
+                                                <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        mars 2020</a></span>
+                                                <span class="read-more-link"><a class="read-more"
+                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        la suite</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -315,44 +314,8 @@
 
 
     <!--Footer-->
-    <div class="footer-dark" style="height: 400px;">
-        <footer style="margin: 50px 0 0 0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item"><img src="assets/img/ENSEM-270x300.png"
-                            style="height: auto;width: 60%;"></div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Contact</h3>
-                        <ul>
-                            <li><i class="fas fa-phone icon" style="color: #e42084;"></i><a href="#">&nbsp;Tél :
-                                    0522230789 &nbsp;</a></li>
-                            <li><i class="icon ion-ios-information-outline icon" style="color: #e42084;"></i><a
-                                    href="#">&nbsp;Fax: 0522231299</a></li>
-                            <li><i class="fas fa-envelope icon" style="color: #e42084;"></i><a href="#">&nbsp; Email:
-                                    contact@ensem.ac.ma</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="card card-cascade narrower">
-                            <div class="view view-cascade gradient-card-header peach-gradient"></div>
-                            <div class="card-body card-body-cascade text-center">
-                                <div id="map-container-google-9" class="z-depth-1-half map-container-5"
-                                    style="height: 300px"><iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13301.900179068509!2d-7.6570737!3d33.5410318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65b786162ba01eb0!2s%C3%89cole%20nationale%20sup%C3%A9rieure%20d&#39;%C3%A9lectricit%C3%A9%20et%20m%C3%A9canique!5e0!3m2!1sfr!2sma!4v1582198256879!5m2!1sfr!2sma"
-                                        width="100%" height="100%" frameborder="0" style="border:0"
-                                        allowfullscreen></iframe></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
-                                class="icon ion-social-twitter"></i></a><a href="#"><i
-                                class="icon ion-social-snapchat"></i></a><a href="#"><i
-                                class="icon ion-social-instagram"></i></a></div>
-                </div>
-                <p class="copyright">ENSEM © 2020</p>
-            </div>
-        </footer>
-    </div>
+    <?php include 'includes/footer.php'; ?>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>

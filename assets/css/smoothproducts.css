@@ -222,9 +222,25 @@ html, body {
   border-radius: 50%;
   border: 1px solid #9e1e81;
 }
+.carousel{
+  margin-top: 72px;
+  
+}
 
 .sliderSwipper {
+  
   color: #4d1a42;
+  font-size: 40px;
+ 
+}
+.sliderSwipper-left{
+
+  margin-left: -80%;
+}
+
+.sliderSwipper-right {
+  margin-right: -80%;
+  
 }
 
 sliderParagraph {
@@ -417,7 +433,7 @@ sliderParagraph {
 }
 
 .entry-meta {
-  border: 1px solid #EAEAEA;
+  border: 1px solid #C62B7D;
   font-size: 14px;
   color: #666666;
   font-family: 'Lato', sans-serif;
@@ -432,7 +448,7 @@ sliderParagraph {
 
 .entry-meta .read-more-link {
   padding: 5px 10px;
-  background-color: #9E1E81 ;
+  background-color: #C62B7D ;
   float: right;
   border-right: none;
 }
@@ -480,12 +496,83 @@ sliderParagraph {
 
 .news-title h5{
   color: #212529 !important;
+  margin-bottom: 20px !important;
 }
 
 
-/*
+
 .card{
   border: none !important;
 }
 
-/*
+/*Contact page maps*/
+.google-maps{
+  -moz-border-radius:250px;
+        -webkit-border-radius:250px;
+        -o-border-radius:250px;
+        -ms-border-radius:250px;    
+        border-radius:250px;
+        margin: 0;
+        padding: 0;
+}
+.map-image{
+   -moz-border-radius:250px;
+        -webkit-border-radius:250px;
+        -o-border-radius:250px;
+        -ms-border-radius:250px;    
+        border-radius:250px;
+  border: 10px solid gray;
+}
+
+.contact-us-page{
+  margin-top: 200px;
+}
+
+/*Form */
+
+.form-container{
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgba(219,219,219,1);
+  width: 80%;
+}
+.form-container form{
+  width: 80%; 
+  margin: auto;
+}
+
+#contactus{
+  color:#9E1E81;
+}
+.block-heading{
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #9e1e81;
+}
+.separator::before {
+  margin-right: .28em;
+}
+.separator::after {
+  margin-left: .28em;
+}
+
+.card-shadow {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.navigation-links{
+  width: 200px;
+  margin-top: -20.5px;
+  margin-bottom: 19px;
+  margin-left: 9%;
+}
