@@ -506,7 +506,7 @@ sliderParagraph {
 }
 
 /*Contact page maps*/
-.google-maps{
+#map{
   -moz-border-radius:250px;
         -webkit-border-radius:250px;
         -o-border-radius:250px;
@@ -515,13 +515,20 @@ sliderParagraph {
         margin: 0;
         padding: 0;
 }
-.map-image{
-   -moz-border-radius:250px;
+
+.svgShadow{
+  box-shadow: 9px -9px  rgba(0,0,0,0.3);
+  -moz-box-shadow: 9px -9px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 9px -9px  rgba(0,0,0,0.3);
+  -o-box-shadow: 9px -9px  rgba(0,0,0,0.3);
+  -moz-border-radius:250px;
         -webkit-border-radius:250px;
         -o-border-radius:250px;
         -ms-border-radius:250px;    
         border-radius:250px;
-  border: 10px solid gray;
+        margin: 0;
+        padding: 0;
+
 }
 
 .contact-us-page{
@@ -575,4 +582,16 @@ sliderParagraph {
   margin-top: -20.5px;
   margin-bottom: 19px;
   margin-left: 9%;
+}
+
+
+.block-title {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 26px;
+  border-bottom: 2px solid #222222;
+  border-bottom-color: rgb(34, 34, 34);
 }

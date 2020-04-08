@@ -64,13 +64,21 @@
 
                     </div>
                     <div class="col-md-6">
-                        <div class="row">
-                            <div class="map-image">
-                                <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635689.793072721!2d80.8833819!3d27.141237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1441046961837" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
+                        <div class="row ">
+                            <svg class="svgShadow" height="300" width="300">
+                                <foreignObject id="map" width="300" height="300">
+                                    <iframe style="overflow:hidden;" width="300" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13301.900179068509!2d-7.6570737!3d33.5410318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65b786162ba01eb0!2s%C3%89cole%20nationale%20sup%C3%A9rieure%20d&#39;%C3%A9lectricit%C3%A9%20et%20m%C3%A9canique!5e0!3m2!1sfr!2sma!4v1582198256879!5m2!1sfr!2sma"></iframe>
+                                </foreignObject>
+                                <circle cx="150" cy="150" r="140" stroke="#DBDBDB" stroke-width="20" fill="url(#map)" /> Sorry, your browser does not support inline SVG.
+                            </svg>
                         </div>
+                        
                         <div class="row">
-
+                            <div>
+                                <h4 class="block-title td-block-title">
+	                                <span id=".block-title">NOS COORDONNÉES</span>
+                                </h4>
+                            </div>
                         </div>
 
                     </div>
