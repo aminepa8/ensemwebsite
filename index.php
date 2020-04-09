@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <title>Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -21,12 +22,37 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets-1.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets.css">
+    <!--  header Stylesheets
+  	======================-======================= -->
+    <link href="includes/header/css/global_font.css" rel="stylesheet" type="text/css" />
+
+  	<link rel="stylesheet" href="includes/header/css/bootstrap.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/style.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/css/dark.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/css/font-icons.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/css/animate.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/css/magnific-popup.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/header/css/responsive.css" type="text/css" />
+    <style>
+    		#header.sticky-on-upscroll #header-wrap {
+    			-webkit-transition: height .4s ease, opacity .3s ease, top .4s ease;
+    			-o-transition: height .4s ease, opacity .3s ease, top .4s ease;
+    			transition: height .4s ease, opacity .3s ease, top .4s ease;
+    		}
+
+    		#header.sticky-on-upscroll.sticky-header #header-wrap { top: -60px; }
+
+    		#header.sticky-on-upscroll.show-sticky-onscroll.sticky-header #header-wrap { top: 0px; }
+    </style>
+    <!--  End header Stylesheets
+    ======================-======================= -->
+
 </head>
 
-<body>
+<body class="stretched" >
 
-<?php include 'includes/navbar.php';?>
-    
+<?php include 'includes\header\header.php';?>
+
     <main class="page landing-page">
         <section id="carousel">
             <div class="carousel slide" data-ride="carousel" id="carousel-1">
@@ -321,6 +347,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <!-- Header animations JavaScripts
+    ============================================= -->
+  	<script src="includes/header/js/plugins.js"></script>
+
+    <script src="includes/header/js/jquery.js"></script>
+
+    <script src="includes/header/js/functions.js"></script>
+    <script>
+      jQuery(document).ready( function($){
+        var lastScrollTop = 0;
+        window.addEventListener("scroll", function(event){
+          var st = $(this).scrollTop();
+          if (st > lastScrollTop){
+            jQuery('#header.sticky-on-upscroll').removeClass('show-sticky-onscroll'); // Down Scroll
+          } else {
+            jQuery('#header.sticky-on-upscroll').addClass('show-sticky-onscroll'); // Up Scroll
+          }
+          lastScrollTop = st;
+        });
+      });
+</script>
+
 </body>
 
 </html>

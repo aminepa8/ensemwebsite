@@ -223,24 +223,24 @@ html, body {
   border: 1px solid #9e1e81;
 }
 .carousel{
-  margin-top: 72px;
-  
+/*  margin-top: 72px;*/
+
 }
 
 .sliderSwipper {
-  
+
   color: #4d1a42;
   font-size: 40px;
- 
+
 }
 .sliderSwipper-left{
 
-  margin-left: -80%;
+  margin-left: -50%;
 }
 
 .sliderSwipper-right {
-  margin-right: -80%;
-  
+  margin-right: -50%;
+
 }
 
 sliderParagraph {
@@ -506,21 +506,17 @@ sliderParagraph {
 }
 
 /*Contact page maps*/
-.mapCercle {
-  margin-top: 2em;
-}
 #map{
   -moz-border-radius:250px;
         -webkit-border-radius:250px;
         -o-border-radius:250px;
-        -ms-border-radius:250px;    
+        -ms-border-radius:250px;
         border-radius:250px;
         margin: 0;
         padding: 0;
 }
 
 .svgShadow{
-  
   box-shadow: 9px -9px  rgba(0,0,0,0.3);
   -moz-box-shadow: 9px -9px  rgba(0,0,0,0.3);
   -webkit-box-shadow: 9px -9px  rgba(0,0,0,0.3);
@@ -528,7 +524,7 @@ sliderParagraph {
   -moz-border-radius:250px;
         -webkit-border-radius:250px;
         -o-border-radius:250px;
-        -ms-border-radius:250px;    
+        -ms-border-radius:250px;
         border-radius:250px;
         margin: 0;
         padding: 0;
@@ -548,7 +544,7 @@ sliderParagraph {
   width: 80%;
 }
 .form-container form{
-  width: 80%; 
+  width: 80%;
   margin: auto;
 }
 
@@ -589,35 +585,13 @@ sliderParagraph {
 }
 
 
-/*LOL*/
-.contact-details{
-  margin-top: 1.5em;
+.block-title {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 26px;
+  border-bottom: 2px solid #222222;
+  border-bottom-color: rgb(34, 34, 34);
 }
-.ct-details{
-  margin-top: 0.3em;
-  margin-left: 0.1em;
-}
-.inner {
-  border: 1px solid #9E1E81;
-  padding:2px;
-   width: 40%;
-   margin:0;
-   background-color:#9E1E81;
-}
-
-.outer {
-   border-bottom: 1px solid #9E1E81;
-   color: #fefcfe;
-   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   font-size: 15px;
-}
-
-/*
-@media only screen and (max-width: 960px) {
-  .mapCercle {
-    margin-top: 2em;
-    background-color: lightblue;
-  }
-}
-*/

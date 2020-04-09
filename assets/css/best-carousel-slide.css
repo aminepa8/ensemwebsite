@@ -3,7 +3,7 @@ div.jumbotron.carousel-hero {
   text-align: center;
   background-size: cover;
   background-position: center;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
   margin-bottom: 0;
 }
@@ -96,4 +96,3 @@ span {
   background-color: #c62b7d !important;
   border-color: #c62b7d !important;
 }
-
