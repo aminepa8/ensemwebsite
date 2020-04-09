@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'helvetica-neue';
+    src: url('/font/helvetica-neue/Helvetica65Medium_22443.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'helvetica-neue-bold';
+src: url('/font/helvetica-neue/HelveticaNeueBold.otf') ;
+}
