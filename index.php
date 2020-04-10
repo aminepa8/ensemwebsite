@@ -22,17 +22,17 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets-1.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets.css">
-    <!--  header Stylesheets
+    <!--  Special Stylesheets
   	======================-======================= -->
-    <link href="includes/header/css/global_font.css" rel="stylesheet" type="text/css" />
+    <link href="includes/css/global_font.css" rel="stylesheet" type="text/css" />
 
-  	<link rel="stylesheet" href="includes/header/css/bootstrap.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/style.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/css/dark.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/css/font-icons.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/css/animate.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/css/magnific-popup.css" type="text/css" />
-  	<link rel="stylesheet" href="includes/header/css/responsive.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/bootstrap.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/style.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/dark.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/font-icons.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/animate.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/magnific-popup.css" type="text/css" />
+  	<link rel="stylesheet" href="includes/css/responsive.css" type="text/css" />
     <style>
     		#header.sticky-on-upscroll #header-wrap {
     			-webkit-transition: height .4s ease, opacity .3s ease, top .4s ease;
@@ -51,7 +51,7 @@
 
 <body class="stretched" >
 
-<?php include 'includes\header\header.php';?>
+<?php include 'includes\header.php';?>
 
     <main class="page landing-page">
         <section id="carousel">
@@ -85,10 +85,15 @@
                         </div>
                     </div>
                 </div>
-                <div><a class="carousel-control-prev " href="#carousel-1" role="button" data-slide="prev"><i
-                            class="fa fa-chevron-circle-left sliderSwipper sliderSwipper-left"></i><span class="sr-only">Previous</span></a><a
-                        class="carousel-control-next " href="#carousel-1" role="button" data-slide="next"><i
-                            class="fa fa-chevron-circle-right sliderSwipper sliderSwipper-right "></i><span class="sr-only">Next</span></a></div>
+                <div>
+                  <a class="carousel-control-prev " href="#carousel-" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-circle-left sliderSwipper sliderSwipper-left"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next " href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-circle-right sliderSwipper sliderSwipper-right "></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-1" data-slide-to="0"></li>
                     <li data-target="#carousel-1" data-slide-to="1" class="active"></li>
@@ -342,19 +347,20 @@
     <!--Footer-->
     <?php include 'includes/footer.php'; ?>
 
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="includes/js/jquery.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
     <!-- Header animations JavaScripts
     ============================================= -->
-  	<script src="includes/header/js/plugins.js"></script>
+  	<script src="includes/js/plugins.js"></script>
 
-    <script src="includes/header/js/jquery.js"></script>
 
-    <script src="includes/header/js/functions.js"></script>
-    <script>
+
+    <script src="includes/js/functions.js"></script>
+    <!-- on Scroll Sticky navbar  -->
+ <script>
       jQuery(document).ready( function($){
         var lastScrollTop = 0;
         window.addEventListener("scroll", function(event){

@@ -18,7 +18,7 @@
 
 						<div id="logo">
 
-							<a  href="#" class="standard-logo"><img class="dark_ensem" src="includes/header/images/ensem_logo.png" alt="ensem_logo.png"></a>
+							<a  href="#" class="standard-logo"><img class="dark_ensem" src="includes/images/ensem_logo.png" alt="ensem_logo.png"></a>
 						</div>
 
 				<!-- #logo end -->

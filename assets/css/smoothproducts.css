@@ -432,7 +432,7 @@ sliderParagraph {
   font-family: 'Lato', sans-serif;
 }
 
-.entry-meta {
+.post-footer .entry-meta {
   border: 1px solid #C62B7D;
   font-size: 14px;
   color: #666666;
