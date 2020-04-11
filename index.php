@@ -139,12 +139,12 @@
                                             <div class="entry-meta clearfix">
 
                                                 <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                        href="#">Webmaster</a></span>
                                                 <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        href="#">23
                                                         mars 2020</a></span>
                                                 <span class="read-more-link"><a class="read-more"
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        href="blog-demo.php">Lire
                                                         la suite</a></span>
                                             </div>
                                         </div>
@@ -180,12 +180,12 @@
                                             <div class="entry-meta clearfix">
 
                                                 <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                        href="#">Webmaster</a></span>
                                                 <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        href="#">23
                                                         mars 2020</a></span>
                                                 <span class="read-more-link"><a class="read-more"
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        href="blog-demo.php">Lire
                                                         la suite</a></span>
                                             </div>
                                         </div>
@@ -223,12 +223,12 @@
                                             <div class="entry-meta clearfix">
 
                                                 <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                        href="#">Webmaster</a></span>
                                                 <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        href="#">23
                                                         mars 2020</a></span>
                                                 <span class="read-more-link"><a class="read-more"
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        href="blog-demo.php">Lire
                                                         la suite</a></span>
                                             </div>
                                         </div>
@@ -264,12 +264,12 @@
                                             <div class="entry-meta clearfix">
 
                                                 <span class="by-author"><i class="fa fa-user">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/author/kaoutar/">Webmaster</a></span>
+                                                        href="#">Webmaster</a></span>
                                                 <span class="date"><i class="fa fa-calendar">&nbsp;</i><a
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">23
+                                                        href="#">23
                                                         mars 2020</a></span>
                                                 <span class="read-more-link"><a class="read-more"
-                                                        href="http://www.fsts.ac.ma/actualites/important-avis-aux-enseignants-chercheurs/">Lire
+                                                        href="blog-demo.php">Lire
                                                         la suite</a></span>
                                             </div>
                                         </div>
