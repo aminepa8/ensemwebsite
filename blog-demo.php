@@ -53,9 +53,9 @@
 
         <main class="page contact-us-page">
             <div class="navigation-links">
-                <a href="/">ACCEUIL >  </a> <a href="">ANNONCES</a>
+                <a href="/">ACCEUIL <strong>></strong>   </a> <a href="">ANNONCES</a>
             </div>
-            
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-7">
@@ -88,7 +88,7 @@
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
 
-                        
+
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
 
@@ -101,29 +101,29 @@
                             <div class="outer">
                                 <p class="inner">Calendrier</p>
                             </div>
-                            <div class="ct-details"> 
+                            <div class="ct-details">
                                 <?php include 'includes/calendar.php'?>
                             </div>
-                            
+
                         </div>
-                        
+
                         <div class="contact-details">
                             <div class="outer">
                                 <p class="inner">Articles Récents</p>
                             </div>
-                            <div class="ct-details"> 
+                            <div class="ct-details">
                                 <p><i class="fas fa-angle-right"></i><a href ="#" >Réinscription 2019/2020 pour les 2èmes et 3èmes années du Cycle Ingénieur</a></p>
                                 <p><i class="fas fa-angle-right"></i><a href ="#" > Appel à Candidature pour l’inscription en Doctorat 2019/2020</a></p>
                                 <p><i class="fas fa-angle-right"></i><a href ="#" > Inscription en 1ère Année 2019/2020 à l’ENSEM</a></p>
                                 <p><i class="fas fa-angle-right"></i><a href ="#" > NOUVEAU : Ouverture des listes d’attente (admission sur titre, concours DEUG/DEUST et équivalents) 2019/2020</a></p>
                             </div>
-                            
+
                         </div>
                         <div class="contact-details">
                             <div class="outer">
                                 <p class="inner">EVÉNEMENTS</p>
                             </div>
-                            <div class="ct-details"> 
+                            <div class="ct-details">
                                 <dl>
                                         <dt>Lundi 15 mai 2020</dt>
                                         <dd><a href ="#" >LA 2ÈME ÉDITION DE LA JOURNÉE DOCTORALE EN SCIENCES DE L’INGÉNIEUR</a></dd>
@@ -131,10 +131,10 @@
                                         <dd><a href ="#" >LA 2ÈME ÉDITION DE LA JOURNÉE DOCTORALE EN SCIENCES DE L’INGÉNIEUR</a></dd>
                                         <dt>Lundi 15 mai 2020</dt>
                                         <dd><a href ="#" >LA 2ÈME ÉDITION DE LA JOURNÉE DOCTORALE EN SCIENCES DE L’INGÉNIEUR</a></dd>
-                                    
+
                                 </dl>
                             </div>
-                            
+
                         </div>
 
                     </div>

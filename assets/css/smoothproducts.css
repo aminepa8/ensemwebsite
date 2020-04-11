@@ -585,15 +585,18 @@ sliderParagraph {
 
 
 .contact-details{
-  margin-top: 1.5em;
+  margin-top: 3.5em;
 }
 .ct-details{
-  margin-top:1em;
+  margin-top:2em;
   margin-left: 0.1em;
+}
+.ct-details p i {
+  margin-right: 12px;
 }
 .inner {
   border: 1px solid #9E1E81;
-  padding:2px;
+  padding:6px;
    width: 40%;
    margin:0;
    background-color:#9E1E81;
@@ -606,4 +609,3 @@ sliderParagraph {
    font-weight: bold;
    font-size: 15px;
 }
-
