@@ -17,20 +17,45 @@
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets-1.css">
     <link rel="stylesheet" href="assets/css/Weather-Widgets.css">
+    <!--  Special Stylesheets
+    ======================-======================= -->
+    <link href="includes/css/global_font.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="includes/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="includes/style.css" type="text/css" />
+    <link rel="stylesheet" href="includes/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="includes/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="includes/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="includes/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="includes/css/responsive.css" type="text/css" />
+    <style>
+        #header.sticky-on-upscroll #header-wrap {
+          -webkit-transition: height .4s ease, opacity .3s ease, top .4s ease;
+          -o-transition: height .4s ease, opacity .3s ease, top .4s ease;
+          transition: height .4s ease, opacity .3s ease, top .4s ease;
+        }
+
+        #header.sticky-on-upscroll.sticky-header #header-wrap { top: -60px; }
+
+        #header.sticky-on-upscroll.show-sticky-onscroll.sticky-header #header-wrap { top: 0px; }
+    </style>
+    <!--  End header Stylesheets
+    ======================-======================= -->
+
 </head>
 
-<body>
-    <?php include 'includes/navbar.php';?>
+<body class="stretched">
+
+    <?php include 'includes\header.php';?>
 
         <main class="page contact-us-page">
             <div class="navigation-links">
-                <a href="/">ACCEUIL >  </a> <a href="">Contact</a>
+                <a href="../ensemwebsite/">ACCEUIL >  </a> <a href="">Contact</a>
             </div>
-            
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -72,7 +97,7 @@
                                 <circle cx="150" cy="150" r="140" stroke="#DBDBDB" stroke-width="20" fill="url(#map)" /> Sorry, your browser does not support inline SVG.
                             </svg>
                         </div>
-                        
+
                         <div class="row">
                             <div>
                                 <h4 class="block-title td-block-title">
@@ -87,13 +112,35 @@
             </div>
         </main>
 
-        <?php include 'includes/footer.php'; ?>
+        <?php  include 'includes/footer.php';?>
 
-            <script src="assets/js/jquery.min.js"></script>
+            <script src="includes/js/jquery.js"></script>
             <script src="assets/bootstrap/js/bootstrap.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
             <script src="assets/js/smoothproducts.min.js"></script>
             <script src="assets/js/theme.js"></script>
+            <!-- Header animations JavaScripts
+            ============================================= -->
+            <script src="includes/js/plugins.js"></script>
+
+
+
+            <script src="includes/js/functions.js"></script>
+            <script>
+                 jQuery(document).ready( function($){
+                   var lastScrollTop = 0;
+                   window.addEventListener("scroll", function(event){
+                     var st = $(this).scrollTop();
+                     if (st > lastScrollTop){
+                       jQuery('#header.sticky-on-upscroll').removeClass('show-sticky-onscroll'); // Down Scroll
+                     } else {
+                       jQuery('#header.sticky-on-upscroll').addClass('show-sticky-onscroll'); // Up Scroll
+                     }
+                     lastScrollTop = st;
+                   });
+                 });
+           </script>
+
 </body>
 
 </html>

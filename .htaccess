@@ -1,0 +1,8 @@
+allow from all
+
+ErrorDocument 404 /ensemwebsite/errors/404.html
+
+RewriteBase /
+
+# enable directory browsing
+Options All -Indexes
