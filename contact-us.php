@@ -53,7 +53,7 @@
 
         <main class="page contact-us-page">
             <div class="navigation-links">
-                <a href="../ensemwebsite/">ACCEUIL >  </a> <a href="">Contact</a>
+                <a href="../ensemwebsite/">ACCEUIL <strong>></strong>  </a> <a href="">Contact</a>
             </div>
 
             <div class="container">
@@ -89,26 +89,26 @@
 
                     </div>
                     <div class="col-lg-6">
-                       <div class="mapCercle animated fadeInUp"> 
+                       <div class="mapCercle animated fadeInUp">
                             <svg class="svgShadow" height="300" width="300">
                                 <foreignObject id="map" width="300" height="300">
                                     <iframe style="overflow:hidden;" width="300" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13301.900179068509!2d-7.6570737!3d33.5410318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65b786162ba01eb0!2s%C3%89cole%20nationale%20sup%C3%A9rieure%20d&#39;%C3%A9lectricit%C3%A9%20et%20m%C3%A9canique!5e0!3m2!1sfr!2sma!4v1582198256879!5m2!1sfr!2sma"></iframe>
                                 </foreignObject>
                                 <circle cx="150" cy="150" r="140" stroke="#DBDBDB" stroke-width="20" fill="url(#map)" /> Sorry, your browser does not support inline SVG.
                             </svg>
-                       </div> 
-                        
+                       </div>
+
                         <div class="contact-details">
                             <div class="outer">
                                 <p class="inner">NOS COORDONNÉES</p>
                             </div>
-                            <div class="ct-details"> 
-                            <h4><span class="fa fa-home"> Adresse:Route d'El Jadida,Km 7 BP</h4>
-                            <h4><span class="fa fa-phone"> Tél:  0522230789 </h4>
-                            <h4><span class="fa fa-fax"> Fax:0522231299</h4>
-                            <h4><span class="fa fa-envelope"> Email: contact@ensem.ac.ma</h4>
+                            <div class="ct-details">
+                            <h4><span class="fa fa-home"><strong> Adresse : </strong> Route d'El Jadida,Km 7 BP</h4>
+                            <h4><span class="fa fa-phone"><strong>  Tél : </strong>  0522230789 </h4>
+                            <h4><span class="fa fa-fax"> <strong>Fax : </strong> 0522231299</h4>
+                            <h4><span class="fa fa-envelope"><strong> Email : </strong> contact@ensem.ac.ma</h4>
                             </div>
-                            
+
                         </div>
 
                     </div>

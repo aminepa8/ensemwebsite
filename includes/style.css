@@ -173,7 +173,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #e50d7e;
+	/*color: #e50d7e;*/
 }
 
 a:hover { color: #e50d7e; }
@@ -228,7 +228,7 @@ h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),
 h4 > span:not(.nocolor):not(.badge),
 h5 > span:not(.nocolor):not(.badge),
-h6 > span:not(.nocolor):not(.badge) { color: #e50d7e; }
+h6 > span:not(.nocolor):not(.badge) { color: #000; }
 
 p,
 pre,
@@ -240,7 +240,7 @@ blockquote,
 address,
 table,
 fieldset,
-form { margin-bottom: 30px; }
+form { margin-bottom: 34px; }
 
 small { font-family: 'Lato', sans-serif; }
 
