@@ -29,53 +29,8 @@
 
 
 						<ul>
-				<li><a href="#"><div>Accueil</div></a>
-					<ul>
-						<li><a href="#"><div>Menu 1</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 2</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 3</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 4</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 5</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-
-
-
-
-					</ul>
+				<li><a href="../ensemwebsite/"><div>Accueil</div></a>
+			
 				</li>
 				<li><a href="#"><div>L’Ecole</div></a>
 					<ul>
@@ -269,53 +224,8 @@
 
 					</ul>
 				</li>
-				<li><a href="#"><div>Contact</div></a>
-					<ul>
-						<li><a href="#"><div>Menu 1</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 2</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 3</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 4</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
-						<li><a href="#"><div>Menu 5</div></a>
-							<ul>
-								<li><a href="#"><div>Sub-menu 1</div></a></li>
-								<li><a href="#"><div>Sub-menu 2</div></a></li>
-								<li><a href="#"><div>Sub-menu 3</div></a></li>
-								<li><a href="#"><div>Sub-menu 4</div></a></li>
-							</ul>
-						</li>
+				<li><a href="contact-us.php"><div>Contact</div></a>
 
-
-
-
-					</ul>
 				</li>
 			</ul>
 
